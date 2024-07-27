@@ -1,6 +1,5 @@
-import unittest
-import sqlite3
 import os
+import unittest
 
 from test_tasks.second_task.create_test import create_database
 from test_tasks.second_task.second_task import get_users_over_age
@@ -34,6 +33,7 @@ class TestGetUsersOverAge(unittest.TestCase):
     def test_get_users_over_age_invalid_age(self):
         with self.assertRaises(ValueError):
             get_users_over_age(self.database, 'invalid_age')
+
 
 if __name__ == '__main__':
     unittest.main()

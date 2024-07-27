@@ -46,7 +46,8 @@ def get_users_over_age(database: str, age_threshold: int) -> list[
         cursor.execute(query, (age_threshold,))
         results = cursor.fetchall()
 
-        logger.info(f"Retrieved {len(results)} users over the age of {age_threshold}")
+        logger.info(
+            f"Retrieved {len(results)} users over the age of {age_threshold}")
         return results
     except Exception as e:
         logger.exception("An error occurred while querying the database")

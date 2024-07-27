@@ -5,7 +5,6 @@
  Сохраните полученные данные в формате JSON в файл.
 """
 
-
 import json
 import logging
 from typing import Any

@@ -1,0 +1,6 @@
+[
+    {"sale_id": 101, "product_id": 1, "amount": 5},
+    {"sale_id": 102, "product_id": 2, "amount": 3},
+    {"sale_id": 103, "product_id": 1, "amount": 2},
+    {"sale_id": 104, "product_id": 3, "amount": 4}
+]
